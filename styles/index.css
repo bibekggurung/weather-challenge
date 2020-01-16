@@ -1,0 +1,93 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  display: grid;
+  min-height: 100vh;
+  background: rgb(238,174,202);
+  background: #c85b39;
+  align-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+  height: 500px;
+  min-height: calc(100% / 3);
+  align-items: center;
+  justify-content: center;
+background: rgb(43,56,70);
+background: linear-gradient(352deg, rgba(43,56,70,1) 0%, rgba(35,45,57,1) 100%);
+  color: red;
+  text-shadow: 2px 2px rgba(0, 0, 0, .25);
+  font-size: 12vh;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.left-content {
+    display: flex;
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+}
+
+.right-content {
+    display: flex;
+    align-items: right;
+    align-content: right;
+    justify-content: right;
+}
+
+.weather-button {
+  background-color: #d2524f;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.weather-button:hover {
+  border: 3px:
+  color: white;
+  border-style: solid;
+  border-color: #3a9fbf;
+}
+
+input#city, input#country  {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #d2524f;
+  margin: 5px;
+  color: white;
+  display: inline-block;
+}
+
+img {
+  height: 500px;
+  align-content: left;
+}
+
+output {
+display: inline-block;
+}
+
+input#output-info {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: inline-block;
+  color: white;
+}
+
+.response {
+    display: inline-block;
+    color: white;
+}
