@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="./styles/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
   <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
 </head>
@@ -21,14 +22,14 @@
         <input type="text" name="country" id="country" placeholder="Country">
         <input type="submit" class="weather-button" value="Get Weather">
         <div class="output">
-          <form class="response">
-          <label for="location">Location</label>
+          <form id="response" class="response">
+          <label for="location">Location:</label>
         <input type="text" name="location" id="output-info" placeholder="Location">
-          <label for="temp">Temperature</label>  
+          <label for="temp">Temperature:</label>
         <input type="text" name="temp" id="output-info" placeholder="Temperature">
-          <label for="hum">Humidity</label>
+          <label for="hum">Humidity:</label>
         <input type="text" name="hum" id="output-info" placeholder="Humidity">
-          <label for="cond">Conditions</label>
+          <label for="cond">Conditions:</label>
         <input type="text" name="cond" id="output-info" placeholder="Conditions">
             </form>
         </div>
